@@ -38,6 +38,9 @@ public class MiniCalculator {
 		if(oprError == false) {
 			System.out.println("계산결과=>"+result);
 		}
+		else {
+			System.out.println("잘못 입력하셨습니다.");
+		}
 		
 		key.close();
 	}
