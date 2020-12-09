@@ -1,6 +1,6 @@
-package mission;
+package addition.problem;
 
-public class Prob7 {
+public class Prob07 {
 
 	public static void main(String[] args) {
 		int n=15;

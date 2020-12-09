@@ -1,8 +1,8 @@
-package mission;
+package addition.problem;
 
 import java.util.Scanner;
 
-public class Prob4 {
+public class Prob04 {
 	public static void main(String[] args) {
 		System.out.print("암호화할 문자열:");
 		Scanner key = new Scanner(System.in);

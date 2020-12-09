@@ -1,8 +1,8 @@
-package mission;
+package addition.problem;
 
 import java.util.Scanner;
 
-public class Prob6 {
+public class Prob06 {
 
 	public static void main(String[] args) {
 		System.out.print("입력하세요:");

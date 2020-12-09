@@ -1,4 +1,4 @@
-package mission;
+package addition.problem;
 
 import java.util.Scanner;
 

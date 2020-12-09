@@ -40,6 +40,7 @@ public class FareTest {
 		default:
 			break;
 		}
+		key.close();
 	}
 
 }

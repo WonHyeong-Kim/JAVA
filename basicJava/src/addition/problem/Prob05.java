@@ -1,8 +1,8 @@
-package mission;
+package addition.problem;
 
 import java.util.Scanner;
 
-public class Prob5 {
+public class Prob05 {
 	static int gcd(int a, int b) {
 		int betterMin=0;
 		

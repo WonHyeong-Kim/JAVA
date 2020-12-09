@@ -1,8 +1,8 @@
-package mission;
+package addition.problem;
 
 import java.util.Scanner;
 
-public class Prob8 {
+public class Prob08 {
 	public static String leftPad(String str, int size, char padChar) {
 		String result="";
 		int len = str.length();

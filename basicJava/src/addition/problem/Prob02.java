@@ -1,6 +1,6 @@
-package mission;
+package addition.problem;
 
-public class Prob2 {
+public class Prob02 {
 	public static void main(String[] args) {
 		boolean prime = false;
 		for(int i=2; i<51; i++) {

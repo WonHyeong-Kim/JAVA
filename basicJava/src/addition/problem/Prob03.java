@@ -1,8 +1,8 @@
-package mission;
+package addition.problem;
 
 import java.util.Scanner;
 
-public class Prob3 {
+public class Prob03 {
 	public static void main(String[] args) {
 		System.out.print("1보다 크고 10보다 작은 정수를 입력하세요.:");
 		Scanner key = new Scanner(System.in);
