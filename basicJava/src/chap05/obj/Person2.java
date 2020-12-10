@@ -1,6 +1,6 @@
 package chap05.obj;
 
-public class Person {
+public class Person2 {
 	
 	private String name;//멤버 변수, 필드
 	private int age;

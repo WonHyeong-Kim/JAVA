@@ -1,38 +1,29 @@
-package chap05.obj;
+package chap05.constructor;
 
 public class PersonTest {
 
 	public static void main(String[] args) {
 		// 객체 생성 - 인스턴스화
-		Person2 p1=new Person2();
+		Person p1=new Person("이이",23,"서울");
 		System.out.println(p1);
-		p1.setName("이이");
-		
-		p1.setAge(23);
-		p1.setAddr("서울");
 		p1.setTelNum("010");
 		System.out.println("성명:"+p1.getName());
 		System.out.println("나이:"+p1.getAge());
 		System.out.println("주소:"+p1.getAddr());
 		System.out.println("====================");
-		Person2 p2 = new Person2();
+		
+		Person p2 = new Person("하하",27,"인천");
 		System.out.println(p2);
-		p2.setName("하하");
-		p2.setAge(26);
-		p2.setAddr("인천");
 		System.out.println("성명:"+p2.getName());
 		System.out.println("나이:"+p2.getAge());
 		System.out.println("주소:"+p2.getAddr());
 		System.out.println("====================");
-		Person2 p3 = new Person2();
+		
+		Person p3 = new Person("므므",25,"경기도");
 		System.out.println(p3);
-		p3.setName("므므");
-		p3.setAge(25);
-		p3.setAddr("경기도");
 		System.out.println("성명:"+p3.getName());
 		System.out.println("나이:"+p3.getAge());
 		System.out.println("주소:"+p3.getAddr());
-
 	}
 
 }
