@@ -1,53 +1,33 @@
 package chap05.obj;
 
 public class Student {
+	public static void main(String args[]) {
+		Student stu = new Student("장동건", "jspprogram", 500000);
+		stu.calcReturnFee();
+		stu.print();
+	}
 	private String name;
-	private int age;
-	private int id;
-	
-	public String getName() {
-		return name;
+	private String subject;
+	private int fee;
+	private double returnFee;
+	public Student(String name, String subject, int fee){
+		this.name=name;
+		this.subject=subject;
+		this.fee=fee;
 	}
-
-	public void setName(String name) {
-		this.name = name;
+	public void calcReturnFee() {
+		if(this.subject == "javaprogram") {
+			this.returnFee = this.fee*0.25;
+		}
+		else if(this.subject == "jspprogram"){
+			this.returnFee=this.fee*0.2;
+		}
+		else {
+			System.out.println("그런 과정명은 없습니다.");
+		}
+		
 	}
-
-	public int getAge() {
-		return age;
-	}
-
-	public void setAge(int age) {
-		this.age = age;
-	}
-
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
-
-	/*public void setName(String name) {
-		this.name = name;
-	}
-	public String getName() {
-		return this.name;
-	}
-	public void setAge(int age) {
-		this.age = age;
-	}
-	public int getAge() {
-		return this.age;
-	}
-	public void setId(int id) {
-		this.id = id;
-	}
-	public int getId() {
-		return this.id;
-	}*/
 	public void print() {
-		System.out.println("이   름 : "+this.name+"\t나 이 : "+this.age+"\t\t학      번 : "+this.id);
+		System.out.println(name+"씨의 과정명은 "+subject+"이고 교육비는 "+fee+"이며 환급금은 "+returnFee+"입니다.");
 	}
 }

@@ -3,7 +3,7 @@ package chap05.obj;
 public class TestSchool {
 	public static void main(String[] args) {
 		
-		Student s = new Student();
+		Student2 s = new Student2();
 		s.setName("홍길동");
 		s.setAge(20);
 		s.setId(200201);
