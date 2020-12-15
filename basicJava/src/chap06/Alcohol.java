@@ -9,7 +9,7 @@ public class Alcohol extends Drink{
 		super(name, price, count);
 		this.alcper=alcper;
 	}
-	public void printTitle() {
+	public static void printTitle() {
 		System.out.println("상품명(도수[%])\t단가\t수량\t금액");
 	}
 	public void printData() {

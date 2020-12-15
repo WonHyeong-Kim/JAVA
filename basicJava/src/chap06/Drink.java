@@ -16,7 +16,7 @@ public class Drink {
 	public int getTotalPrice() {
 		return price*count;
 	}
-	public void printTitle() {
+	public static void printTitle() {
 		System.out.println("상품명\t단가\t수량\t금액");
 	}
 	public void printData() {
